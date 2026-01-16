@@ -1,0 +1,20 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: 'elkhazenmo@gmail.com'
+    password: 'cwwm ivnt lyfo zzho'
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+  application:
+    name: email-sender
+  main:
+    web-application-type: servlet
+
+server:
+  port: 8081
